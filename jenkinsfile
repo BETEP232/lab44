@@ -1,0 +1,9 @@
+pipeline {
+  stages {
+    stage('connect chek'){
+      steps{
+        sh 'ls -l'
+      }
+    }
+  }
+}
